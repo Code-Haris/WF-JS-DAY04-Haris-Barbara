@@ -9,7 +9,19 @@
 	<p id="first"></p>
 	<p id="second"></p>
 	<p id="third"></p>
-	
+	<script>
+function changeColor(id)
+{
+
+  document.getElementById(id).style.color.text = "#ff0000"
+  document.getElementById(id).style.color = "#fcba03";
+}
+</script>
+
+<div id="myid">Hello There !!</div>
+
+<a href="#" onclick="changeColor('myid'); return false;">Change Color</a>
+
 	<script src="./js/index.js" type="text/javascript" charset="utf-8" async defer></script>
 <!--Change the style of the book depending on whether you have read it or not.-->
 </body>
