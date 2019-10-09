@@ -1,0 +1,51 @@
+{
+"Employees" : [
+{
+"userId":"Fred",
+"jobTitleName":"Developer",
+"firstName":"Laslo",
+"lastName":"Dont know",
+"preferredFullName":"Laslo Fred",
+"phoneNumber":"01 123456",
+"emailAddress":"laslo@gmail.com"
+},
+{
+"userId":"Barba",
+"jobTitleName":"Developer",
+"firstName":"Barbara",
+"lastName":"Dont know",
+"preferredFullName":"Barba Barbara",
+"phoneNumber":"01 123456",
+"emailAddress":"barba@gmail.com"
+},
+{
+"userId":"Muha",
+"jobTitleName":"Developer",
+"firstName":"Muhammed",
+"lastName":"Farahman",
+"preferredFullName":"Muhammed Farahman",
+"phoneNumber":"01 123456",
+"emailAddress":"muhammed@gmail.com"
+},
+{
+"userId":"philly",
+"jobTitleName":"Developer",
+"firstName":"Philip",
+"lastName":"Something",
+"preferredFullName":"Philip Something",
+"phoneNumber":"01 123456",
+"emailAddress":"philip@gmail.com"
+},
+{
+"userId":"John",
+"jobTitleName":"Developer",
+"firstName":"John",
+"lastName":"Doe",
+"preferredFullName":"John Doe",
+"phoneNumber":"01 123456",
+"emailAddress":"john@gmail.com"
+},
+
+
+]
+}
