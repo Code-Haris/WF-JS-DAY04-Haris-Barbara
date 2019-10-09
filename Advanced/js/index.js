@@ -13,8 +13,10 @@ function generateTable () {
         let htmlString = `
             <li class='book-item'>
                 <div class='book-info'>
-                	<p><img src='${BOOK.books[i].cover}'>'</p>
-                	<p><b>Title: '${BOOK.books[i].title}'</b> Author: '${BOOK.books[i].author}</p>
+                	<p><img src=${BOOK.books[i].cover}></p>
+                	<p><b>Title: ${BOOK.books[i].title}</b></p>
+                	<p>Author: ${BOOK.books[i].author}</p>
+                	<p class="read">${BOOK.books[i].read}</p>
                 </div>
             </li>
         `
@@ -30,10 +32,3 @@ function generateTable () {
 }
 
 $('body').html(generateTable);
-let read = `${BOOK.books[i].read}`
-	console.log(read);
-		if (read ? "false" : "true") {
-			document.getElementsByTagName("p")[i].style.color = "red";
-		} else {
-			document.getElementsByTagName("p")[i].style.color = "green";
-		}
