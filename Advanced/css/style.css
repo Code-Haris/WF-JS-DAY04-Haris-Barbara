@@ -15,9 +15,7 @@ img {
   justify-content: space-between;
   width: 100%; }
 
-.read {
-  background-color: yellowgreen;
-  padding: 5%;
-  content: "true"; }
+[id*=read] {
+  padding: 5%; }
 
 /*# sourceMappingURL=style.css.map */

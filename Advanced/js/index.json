@@ -1,0 +1,5 @@
+var books: [
+        { "title": "Javascript for Dummies", "author": "Dummy Dumb Dumb", "read": "false", "cover": "./img/Download.jpg" },
+        { "title": "Javascript for Kids", "author": "Nick Morgan", "read": "false", "cover": "https://wsvincent.com/assets/images/bestjavascriptbooks/js_for_kids.jpg" },
+        { "title": "Up and Going Javascript", "author": "Kyle Simpson", "read": "true", "cover": "https://images-eu.ssl-images-amazon.com/images/I/41L18FvA5rL.jpg" },
+    ]
